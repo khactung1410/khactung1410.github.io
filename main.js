@@ -25,7 +25,7 @@ socket.on('dang_ki_that_bai',()=>{
 })
 
 function openStream(){ /*function trả về 1 promise*/
-    const config = {audio: false ,video:true};
+    const config = {audio: true ,video:true};
     return navigator.mediaDevices.getUserMedia(config)
 }
 
